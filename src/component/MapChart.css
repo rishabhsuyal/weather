@@ -1,0 +1,24 @@
+.globe{
+    position: relative;
+    height: 100px;
+    width: 100px;
+  }
+  .go{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5wFWa8KwDNsJv1J9RE-a40IbMVYIKh4Q2JBjHOkEWqtg-QxgamAnBj8UdFVPykF2lqoKjJYyWBJwEsRC1BErJT8dBP7RT9UgBO07CBZbs_7gYMTbX94qZX3v1O_1XZLVI_kVMEIyK_BWQfsFdy1UNq998FbrJCOqpAftmZOFcFueMS_NwFpSo0zaTUXs/s1600/159305.jpg");
+    border-radius: 50%;
+    box-shadow: inset 15px 0px 25px 1px black;
+    background-size: 350px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: rotate(-10deg);
+  }
+  @keyframes rotate {
+    from{ background-position: 0px;}
+    to{ background-position: 350px;}
+  }
+  
